@@ -1,15 +1,16 @@
 AndroidPinyin4JDemo
 ==================
 
-* The Pinyin4j on sourceforget: http://sourceforge.net/projects/pinyin4j/<br>
+* Demonstrate how to simply use Pinyin4j in Android project
+* For more information please visit the Pinyin4j on sourceforget: http://sourceforge.net/projects/pinyin4j/<br>
 
 
 ###3.Simple code:
-		HanyuPinyinOutputFormat format = new HanyuPinyinOutputFormat();
-		format.setCaseType(HanyuPinyinCaseType.LOWERCASE);
-		format.setToneType(HanyuPinyinToneType.WITH_TONE_MARK);
-		format.setVCharType(HanyuPinyinVCharType.WITH_U_UNICODE);
-		PinyinHelper.toHanyuPinyinStringArray(chars[i], format);
+	HanyuPinyinOutputFormat format = new HanyuPinyinOutputFormat();
+	format.setCaseType(HanyuPinyinCaseType.LOWERCASE);
+	format.setToneType(HanyuPinyinToneType.WITH_TONE_MARK);
+	format.setVCharType(HanyuPinyinVCharType.WITH_U_UNICODE);
+	PinyinHelper.toHanyuPinyinStringArray(chars[i], format);
     
 
 
